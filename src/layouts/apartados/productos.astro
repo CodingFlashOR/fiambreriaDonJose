@@ -1,0 +1,100 @@
+<script>
+    import productos from "../../components/productos.json";
+    const goggi = productos.lineaGoggi;
+    const tacuaral = productos.lineaTacuaral;
+    const otros = productos.otros;
+    
+    const contenedorProductos = document.createElement("div");
+    contenedorProductos.classList.add("w-full", "flex", "justify-center", "flex-col");
+    
+    //cajas contenedoras
+    const cajaProductosGOGGI = document.createElement("div");
+    cajaProductosGOGGI.classList.add("w-4/5","mx-auto", "my-5");
+
+    const cajaProductosTacuaral = document.createElement("div");
+    cajaProductosTacuaral.classList.add("w-4/5", "mx-auto", "my-5");
+
+    const cajaProductosOtros = document.createElement("div");
+    cajaProductosOtros.classList.add("w-4/5","mx-auto", "my-5");
+
+
+
+    const titulo = document.createElement("H1");
+    titulo.textContent = "Nuestros productos";
+    titulo.classList.add("text-center", "text-slate-200", "font-bold", "text-5xl", "mt-10", "mb-8");
+    
+
+    cajaProductosGOGGI.appendChild(titulo);
+    
+    //linea GOGGI
+    const tituloGoggi = document.createElement("H2");
+    tituloGoggi.textContent = "Linea Goggi"
+    tituloGoggi.classList.add("font-bold","text-3xl","text-slate-200","ml-10", "my-8", "underline")
+
+    cajaProductosGOGGI.appendChild(tituloGoggi)
+
+    goggi.forEach(producto => {
+        if (producto.precio !== null){
+            const productoElemento = document.createElement("div");
+            productoElemento.innerHTML = `<div class="flex justify-around relative my-4 text-slate-300">
+                        <div class="text-start text-xl">${producto.producto}</div>
+                        <div class="border-b border-dashed border-slate-400 h-6 w-1/2 flex-grow"></div>
+                        <div class="text-xl">${producto.precio}</div>
+                    </div>`;
+            cajaProductosGOGGI.appendChild(productoElemento);
+        }
+    });
+
+    //linea Tacuaral
+    const tituloTacuaral = document.createElement("H2");
+    tituloTacuaral.textContent = "Linea Tacuaral"
+    tituloTacuaral.classList.add("font-bold","text-3xl","text-slate-200","ml-10", "my-8", "underline")
+
+    cajaProductosTacuaral.appendChild(tituloTacuaral)
+
+    tacuaral.forEach(producto => {
+        if (producto.precio !== null) {
+            const productoElemento = document.createElement("div");
+            productoElemento.innerHTML = `<div class="flex justify-around relative my-4 text-slate-300">
+                        <div class="text-start text-xl">${producto.producto}</div>
+                        <div class="border-b border-dashed border-slate-400 h-6 w-1/2 flex-grow"></div>
+                        <div class="text-xl">${producto.precio}</div>
+                    </div>`;
+            cajaProductosTacuaral.appendChild(productoElemento);
+         }
+    });
+
+        //otros
+        const tituloOtros = document.createElement("H2");
+        tituloOtros.textContent = "Otros";
+        tituloOtros.classList.add("font-bold","text-3xl","text-slate-200","ml-10", "my-8", "underline");
+
+    cajaProductosOtros.appendChild(tituloOtros)
+
+    otros.forEach(producto => {
+        if (producto.precio !== null) {
+            const productoElemento = document.createElement("div");
+            productoElemento.innerHTML = `<div class="flex justify-around relative my-4 text-slate-300">
+                <div class="text-start text-xl">${producto.producto}</div>
+                <div class="border-b border-dashed border-slate-400 h-6 w-1/2 flex-grow"></div>
+                <div class="text-xl">${producto.precio}</div>
+            </div>`;
+            cajaProductosOtros.appendChild(productoElemento);
+        }
+    });
+
+
+
+   
+
+
+
+
+    
+    contenedorProductos.appendChild(cajaProductosGOGGI);
+    contenedorProductos.appendChild(cajaProductosTacuaral);
+    contenedorProductos.appendChild(cajaProductosOtros);
+
+    
+    document.body.appendChild(contenedorProductos);
+    </script>

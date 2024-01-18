@@ -1,0 +1,311 @@
+{
+    "lineaGoggi": [
+        {
+            "id": "1",
+            "producto":"Salamin picado grueso",
+            "precio":"$7000",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "2",
+            "producto":"Salamin picado fino",
+            "precio":"$7000",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "3",
+            "producto":"Baston picado grueso",
+            "precio":"$7000",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "4",
+            "producto":"Milan",
+            "precio":"$7200",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "5",
+            "producto":"Cantimpalo",
+            "precio":"$7200",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "6",
+            "producto":"Bondiola",
+            "precio":"$13000",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "7",
+            "producto":"Jamon crudo",
+            "precio":"$13000",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "8",
+            "producto":"Panceta salada",
+            "precio":"$11000",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "9",
+            "producto":"Paleta 'FIGO'",
+            "precio":"$4500",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "10",
+            "producto":"Paleta 'AZUL'",
+            "precio":"$4500",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "11",
+            "producto":"Pata de cerdo",
+            "precio":"$6000",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "12",
+            "producto":"Jamon cocido",
+            "precio":"$7500",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "13",
+            "producto":"Jamon cocido con cuero",
+            "precio":"$8500",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "14",
+            "producto":"Jamon cocido barrilito (4kg)",
+            "precio":"$8500",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "15",
+            "producto":"Mortadela",
+            "precio":"$4200",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "16",
+            "producto":"Salchichon primavera",
+            "precio":"$4200",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "17",
+            "producto":"Salchichon con jamon",
+            "precio":"$4200",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "18",
+            "producto":"Mortadela mini",
+            "precio":"$4700",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "19",
+            "producto":"Mortadela Vejiga",
+            "precio":"$4700",
+            "linea":"GOGGI"
+        },
+        {
+            "id": "20",
+            "producto":"Primavera mini",
+            "precio":"$4700",
+            "linea":"GOGGI"
+        }
+    ],
+
+    "lineaTacuaral":
+    [
+        {
+            "id": "21",
+            "producto":"Jamon cocido",
+            "precio":"$8000",
+            "linea":"TACUARAL"
+        },
+        {
+            "id": "22",
+            "producto":"Mortadela",
+            "precio":"$5500",
+            "linea":"TACUARAL"
+        },
+        {
+            "id": "23",
+            "producto":"Lomito ahumado a las finas hierbas",
+            "precio":"$8500",
+            "linea":"TACUARAL"
+        },
+        {
+            "id": "24",
+            "producto":"Salame milan",
+            "precio":"$7600",
+            "linea":"TACUARAL"
+        },
+        {
+            "id": "25",
+            "producto":"Jamon crudo",
+            "precio":"$1500",
+            "linea":"TACUARAL"
+        },
+        {
+            "id": "26",
+            "producto":"Salame metro",
+            "precio":"$11000",
+            "linea":"TACUARAL"
+        }
+    ],
+    "otros": 
+    [
+        {
+            "id": "27",
+            "producto":"Queso cremoso",
+            "precio":"$4500",
+            "linea":"Don Angel"
+        },
+        {
+            "id": "28",
+            "producto":"Queso cremoso",
+            "precio":"$4100",
+            "linea":"De Baldo"
+        },
+        {
+            "id": "29",
+            "producto":"Queso en barra",
+            "precio":"$5800",
+            "linea":"Don Angel"
+        },
+        {
+            "id": "30",
+            "producto":"Queso Sardo",
+            "precio":"$7200",
+            "linea":"Don Angel"
+        },
+        {
+            "id": "31",
+            "producto":"Queso Sardo",
+            "precio":"$7200",
+            "linea":"De Baldo"
+        },
+        {
+            "id": "32",
+            "producto":"Queso Fontina",
+            "precio":"$7200",
+            "linea":"Don Angel"
+        },
+        {
+            "id": "33",
+            "producto":"Queso Holanda",
+            "precio":"$7000",
+            "linea":"Don Angel"
+        },
+        {
+            "id": "34",
+            "producto":"Queso chedar en barra",
+            "precio":"$7000",
+            "linea":"Don Angel"
+        },
+        {
+            "id": "35",
+            "producto":"Queso Azul",
+            "precio":"$6900",
+            "linea":"Don Angel"
+        },
+        {
+            "id": "36",
+            "producto":"Queso Azul",
+            "precio":null,
+            "linea":"Don Angel"
+        },
+        {
+            "id": "37",
+            "producto":"Queso muzzarella hilada",
+            "precio":"$4500",
+            "linea":"Don Angel"
+        },
+        {
+            "id": "38",
+            "producto":"Queso muzzarella cilindo",
+            "precio":null,
+            "linea":"Her - Ball"
+        },
+        {
+            "id": "39",
+            "producto":"Queso Brie",
+            "precio":null,
+            "linea":""
+        },
+        {
+            "id": "40",
+            "producto":"Queso Port Salud",
+            "precio":"$5200",
+            "linea":"Don Angel"
+        },
+        {
+            "id": "41",
+            "producto":"Mortadela",
+            "precio":"$7800",
+            "linea":"Paladini"
+        },
+        {
+            "id": "42",
+            "producto":"Aceitunas verdes",
+            "precio":"$5500",
+            "linea":"Desc."
+        },
+        {
+            "id": "43",
+            "producto":"Aceitunas verdes 1",
+            "precio":"$5500",
+            "linea":""
+        },
+        {
+            "id": "44",
+            "producto":"Aceitunas verdes 00",
+            "precio":"$5000",
+            "linea":""
+        },
+        {
+            "id": "45",
+            "producto":"Aceitunas verdes rellnas",
+            "precio":"$5000",
+            "linea":""
+        },
+        {
+            "id": "46",
+            "producto":"Pickles",
+            "precio":"$3500",
+            "linea":""
+        },
+        {
+            "id": "47",
+            "producto":"Lupines",
+            "precio":"$2500",
+            "linea":""
+        },
+        {
+            "id": "48",
+            "producto":"Discos de empanadas",
+            "precio":"$850",
+            "linea":""
+        },
+        {
+            "id": "49",
+            "producto":"Disco de tarta",
+            "precio":"$950",
+            "linea":"Don Angel"
+        },
+        {
+            "id": "50",
+            "producto":"Queso Sardo",
+            "precio":"$5500",
+            "linea":"Santa Clara"
+        }
+    ]
+}
