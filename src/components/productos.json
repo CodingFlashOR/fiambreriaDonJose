@@ -1,5 +1,5 @@
 {
-    "mercaderia": [
+    "lineaGoggi": [
         {
             "id": "1",
             "producto":"Salamin picado grueso",
@@ -119,7 +119,11 @@
             "producto":"Primavera mini",
             "precio":"$4700",
             "linea":"GOGGI"
-        },
+        }
+    ],
+
+    "lineaTacuaral":
+    [
         {
             "id": "21",
             "producto":"Jamon cocido",
@@ -155,7 +159,10 @@
             "producto":"Salame metro",
             "precio":"$11000",
             "linea":"TACUARAL"
-        },
+        }
+    ],
+    "otros": 
+    [
         {
             "id": "27",
             "producto":"Queso cremoso",
