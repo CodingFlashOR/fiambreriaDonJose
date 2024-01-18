@@ -1,0 +1,30 @@
+<script>
+    import productos from "../../components/productos.json";
+    const prod = productos.mercaderia;
+    
+    const contenedorProductos = document.createElement("div");
+    contenedorProductos.classList.add("w-full", "flex", "justify-center");
+    
+    const cajaProductos = document.createElement("div");
+    cajaProductos.classList.add("w-4/5", "border", "border-white");
+    
+    const titulo = document.createElement("H1");
+    titulo.textContent = "Nuestros productos";
+    titulo.classList.add("text-center", "text-slate-200", "font-bold", "text-3xl", "mt-10");
+    
+    cajaProductos.appendChild(titulo);
+    
+    prod.forEach(producto => {
+        const productoElemento = document.createElement("div");
+        productoElemento.innerHTML = `<div class="flex justify-around relative my-4 text-slate-300">
+                    <div class="text-start">${producto.producto} linea: ${producto.linea}</div>
+                    <div class="border-b border-dashed border-slate-400 h-6 w-1/2 flex-grow"></div>
+                    <div>${producto.precio}</div>
+                </div>`;
+        cajaProductos.appendChild(productoElemento);
+    });
+    
+    contenedorProductos.appendChild(cajaProductos);
+    
+    document.body.appendChild(contenedorProductos);
+    </script>
